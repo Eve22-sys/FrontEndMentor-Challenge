@@ -5,67 +5,72 @@
 }
 body{
     background-color:  #674bb1;
-    max-width: 100%;
+    max-width: 100%;justify-content: center;
+    align-items: center;
     width: 900px;
 }
 section{
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    left: 39%;
-    top: 145px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-top: 145px;
+  left: 310px;
+  gap: 40px;
+  z-index: 1;
 }
-section #descktop{
+ #descktop{
     display: flex;
-    position: relative;
     width: 500px;
     z-index: 1;
 }
-.container h1, .Sobre, .btn1{
- display: flex;
- flex-direction: column;
- justify-content: space-between;
- gap: 32px;
- 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  width: 500px;
+  z-index: 1;
 }
  h1{
     width: 360px;
     color: white;
-    display:flex;
-    position: relative;
-    left: 35px;
+    margin: 0;
 }
 .Sobre{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
-    display: flex;
-    position: relative;
-    width: 500px;
-    z-index: 1;
-    left: 35px;
-    
+    width: 490px;
 }
  .btn1{
     display: inline-block;
     background-color: white;
     border-color: white;
-    box-shadow:1px 1px 1px black;
+    box-shadow:1px 1px 10px black;
     color: #674bb1;
-    padding: 5px;
+    padding: 10px 35px;
+    border-radius: 50px;
+}
+.btn1:hover{
+    display: inline-block;
+    background-color:#ab4fc4;
+    border-color:#ab4fc4;
+    box-shadow:1px 1px 10px black;
+    color: white;
+    padding: 10px 35px;
     border-radius: 50px;
 }
 .logo {
 display: flex;
 position: relative;
-bottom: 325px;
-left: 30%;
+bottom: 480px;
+left: 190px;
 height: 40px;
 }
 .fundo img{
     height:100%;
     bottom: 0.1px;
-    left: 17%;
+    left: 100px;
     position:absolute;
     display: flex;
     justify-self: center;
@@ -77,7 +82,7 @@ footer{
     display: flex;
     position:relative;
     justify-content: center;
-    top: 150px;
+    bottom: 12px;
     right: 25%;
 }
 .attribution a{
