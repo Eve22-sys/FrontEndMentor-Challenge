@@ -32,6 +32,8 @@ section{
 }
  #descktop{
     display: flex;
+    position: relative;
+    right: 27px;
     width: 550px;
     z-index: 1;
 }
