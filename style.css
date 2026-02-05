@@ -30,7 +30,7 @@ section{
   gap: 40px;
   z-index: 1;
 }
- #descktop{
+ #desktop{
     display: flex;
     position: relative;
     right: 27px;
@@ -113,4 +113,66 @@ footer{
     padding: 3px;
     border-radius: 5px;
     background-color: #f152c9;
+}
+@media  (max-width:768px) {
+    body{
+        max-width: 100%;
+        width: auto;
+    }
+    .fundo img{
+        display: none;
+    }
+    .fundo-mobile img{
+        display: block;
+        width: 430px;
+        position: absolute;
+        left: 5px;
+        bottom: 470px;
+}
+.logo{
+    display: flex;
+    position: relative;
+    top: 15px;
+    left: 30px;
+}
+#desktop{
+    display: flex;
+    position: relative;
+    width: 340px;
+    right: 40px;
+    bottom: 27px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 50px;
+}
+.container{
+    display: flex;
+    position: relative;
+    top: 20px;
+}
+h1{
+    text-align: center;
+     display: flex;
+    position: relative;
+    left: 25px;
+}
+.Sobre{
+    text-align: center;
+    line-height: 1.0em;
+    width: 420px;
+    letter-spacing: 2px;
+}
+.btn1{
+    padding: 20px 100px;
+     display: flex;
+    position: relative;
+    left: 85px;
+    font-weight: bolder;
+}
+.attribution{
+    display: none;
+}
 }
