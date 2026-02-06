@@ -116,6 +116,7 @@ footer{
 }
 @media  (max-width:768px) {
     body{
+        overflow: hidden;
         max-width: 100%;
         width: auto;
     }
@@ -126,14 +127,15 @@ footer{
         display: block;
         width: 430px;
         position: absolute;
-        left: 5px;
-        bottom: 470px;
+        bottom: 480px;
+        max-width: auto;
 }
 .logo{
     display: flex;
     position: relative;
     top: 15px;
     left: 30px;
+     max-width: auto;
 }
 #desktop{
     display: flex;
@@ -141,6 +143,7 @@ footer{
     width: 340px;
     right: 40px;
     bottom: 27px;
+     max-width: auto;
 }
 section{
     display: flex;
@@ -152,27 +155,30 @@ section{
     display: flex;
     position: relative;
     top: 20px;
+     max-width: auto;
 }
 h1{
     text-align: center;
-     display: flex;
+    display: flex;
     position: relative;
     left: 25px;
 }
 .Sobre{
     text-align: center;
-    line-height: 1.0em;
-    width: 420px;
+    line-height: 1.4em;
+    width: 404px;
     letter-spacing: 2px;
 }
 .btn1{
-    padding: 20px 100px;
-     display: flex;
+    padding: 13px 100px;
+    display: flex;
     position: relative;
     left: 85px;
     font-weight: bolder;
+    border: white;
 }
 .attribution{
     display: none;
+  
 }
 }
