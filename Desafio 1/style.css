@@ -164,12 +164,23 @@ h1{
     left: 25px;
 }
 .Sobre{
+    font-size: 16px;
     text-align: center;
     line-height: 1.4em;
     width: 404px;
     letter-spacing: 2px;
 }
 .btn1{
+    font-size: 20px;
+    padding: 13px 100px;
+    display: flex;
+    position: relative;
+    left: 60px;
+    font-weight: bolder;
+    border: white;
+}
+.btn1:hover{
+    font-size: 20px;
     padding: 13px 100px;
     display: flex;
     position: relative;
@@ -180,5 +191,85 @@ h1{
 .attribution{
     display: none;
   
+}
+}
+
+@media (max-width:375px) {
+    body{
+        overflow: hidden;
+        max-width: 100%;
+        width: auto;
+    }
+    .fundo img{
+        display: none;
+    }
+    .fundo-mobile img{
+        display: block;
+        width: 380px;
+        position: absolute;
+        bottom: 387px;
+        max-width: auto;
+}
+.logo{
+    display: flex;
+    position: relative;
+    top: 35px;
+    left: 40px;
+    height: 30px;
+     max-width: auto;
+}
+#desktop{
+    display: flex;
+    position: relative;
+    width: 310px;
+    right: 40px;
+    bottom: 17px;
+     max-width: auto;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.container{
+    display: flex;
+    position: relative;
+    top: 20px;
+    right: 240px;
+    width: 10px;
+     max-width: auto;
+}
+h1{
+    text-align: center;
+    display: flex;
+    position: relative;
+    left: 15px;
+}
+.Sobre{
+    display: flex;
+    position: relative;
+    text-align: center;
+    line-height: 1.2em; /*Aumenta o espaçamento entre as linhas para melhorar a legibilidade como o gap */
+    width: 320px;
+    left: 35px;
+    letter-spacing: 0.2em; /*Adiciona espaçamento entre as letras para melhorar a legibilidade */
+}
+.btn1{
+    padding: 10px 70px;
+    display: flex;
+    position: relative;
+    left: 85px;
+    font-weight: bolder;
+    border: white;
+}
+   .btn1:hover{
+    left: 85px;
+    padding: 10px 70px;
+    display: flex;
+    position: relative;
+    font-weight: bolder;
+    border: white;
+    background-color:#ab4fc4;
+    color: white; 
 }
 }
