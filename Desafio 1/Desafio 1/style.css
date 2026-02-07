@@ -249,9 +249,10 @@ h1{
     display: flex;
     position: relative;
     text-align: center;
+    line-height: 1.2em; /*Aumenta o espaçamento entre as linhas para melhorar a legibilidade como o gap */
     width: 320px;
     left: 35px;
-    letter-spacing: -0.2px; /*Adiciona espaçamento entre as letras para melhorar a legibilidade */
+    letter-spacing: 0.2em; /*Adiciona espaçamento entre as letras para melhorar a legibilidade */
 }
 .btn1{
     padding: 10px 70px;
